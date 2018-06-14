@@ -1,11 +1,11 @@
 import { ModuleWithProviders }  from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { WelcomeComponent } from './welcome/welcome.component';
+import { RoverFormComponent } from './rover-form/rover-form.component';
 
 const appRoutes: Routes = [
   {
     path: '',
-    component: WelcomeComponent
+    component: RoverFormComponent
   }
 ];
 
